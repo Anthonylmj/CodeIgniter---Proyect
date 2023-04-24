@@ -30,6 +30,33 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('homeuser', 'Home::logged');
+$routes->get('autors', 'Home::autors');
+$routes->get('m1', 'Home::m1');
+$routes->get('m2', 'Home::m2');
+$routes->get('m3', 'Home::m3');
+$routes->get('m4', 'Home::m4');
+$routes->get('m5', 'Home::m5');
+$routes->get('m6', 'Home::m6');
+$routes->get('m7', 'Home::m7');
+$routes->get('m8', 'Home::m8');
+$routes->get('m9', 'Home::m9');
+$routes->get('curriculum_anthony', 'Home::curriculum_anthony');
+$routes->get('curriculum_jorge', 'Home::curriculum_jorge');
+
+
+if(isset($_POST['register'])){
+
+    $routes->post('/', 'Home::register');
+
+}
+else if(isset($_POST['login'])) {
+
+    $routes->post('/', 'Home::login');
+}
+
+
+
 
 /*
  * --------------------------------------------------------------------

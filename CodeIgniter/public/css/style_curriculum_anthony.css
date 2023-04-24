@@ -1,0 +1,107 @@
+h2{
+    font-family: Verdana;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0a99c5;
+}
+
+h3{
+    font-family: Verdana;
+    color: #111111;
+}
+
+p{
+    font-family: Verdana;
+    color: #262626;
+    font-size: large;
+}
+
+li{
+    font-family: Verdana;
+    color: #262626;
+    font-size: large;
+}
+
+th{
+    font-family: Verdana;
+    color: #111111;
+}
+
+fieldset{
+    border-color: #0a99c5;
+    margin-top: 2em;
+    background-color: #F2F2F2;
+}
+
+legend{
+    border:2px solid #0a99c5;
+    font-family: Verdana;
+    border-radius:8px;
+    font-size: large;
+    color: #ffffff;
+    background-color: #2bbbe7;
+}
+
+#presentacion{
+    margin: 5px;
+    width: 21em;
+    height: 2030;
+    float: left;
+  
+    background-color: #2bbbe7;
+}
+
+#contenido { 
+    margin: 10px;
+    width: calc(80% - 5em);
+    float: right;
+}
+
+.col{
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#idioma{
+    display: flex;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.redes a{
+    margin: 10px 20px;
+    top: 50%;
+}
+
+.redes p{
+    display: block;
+    margin: 0px;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+  table {
+    border-spacing: 10px;
+  }
+
+  img.centrar{
+    text-align: center;
+
+  }

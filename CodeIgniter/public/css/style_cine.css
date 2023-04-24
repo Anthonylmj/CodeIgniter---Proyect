@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: rgb(241, 249, 249);
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.btn-right {
+    text-align: right;
+}
+
+#left-colum {
+    width: 638px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.movieinfo {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+dt {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.cpanel {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 6px;
+    margin-bottom: 30px;
+}
+
+.catrTittle {
+    margin-bottom: 10px;
+}
+
+.catrContainer {
+    width: 155px;
+    height: 234px;
+    box-shadow: 2px 3px 4px #bbbbbb;
+}
+
+.paddingcart {
+    display: inline-block;
+    vertical-align: top;
+    padding: 3px 3px 3px 0px;
+}
+
+.moviecard12 {
+    color: #666;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.mc-image {
+    border: 1px solid #E2E2E2;
+    height: 234px;
+    width: 155px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px #BBBBBB
+}
+
+.img {
+    height: 233px;
+    width: 157px;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid #252525;
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px #6f6f6f;
+}
+
+.img2 {
+    height: 500px;
+    width: 300px;
+    margin-top: 144px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0%;
+    border: 1px solid #252525;
+    border-radius: 7px;
+
+}
+
+
+.franja {
+    text-align: center;
+    font-size: 85%;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: 1px;
+    right: 1px;
+    height: 50px;
+    background: #447CAD;
+    filter: Alpha(Opacity=90);
+    -moz-opacity: .90;
+    opacity: .90;
+    padding: 4px 0px 4px 0px;
+}
+
+.mtittle {
+    font-size: 123.1%;
+    height: 36px;
+    margin-bottom: 2px;
+    overflow-y: hidden
+}
+
+.mtittle2 {
+    font-size: 50px;   
+    overflow-y: hidden
+}
+
+#content-table {
+    width: 100%;
+    border: 1px solid #A0A0A0;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+
+    cursor: auto;
+    box-shadow: 0 20px 20px rgba(90, 90, 90, 0.75);
+}
+
+#right-colum {
+    float: right;
+    width: 180px;
+}
+
+.main-tittle {
+    font-size: 180%;
+    color: #e1e1e1;
+    font-weight: normal;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    text-decoration: none
+}
+
+.content-cell {
+    padding: 5px 5px 30px 5px;
+    border: 0px;
+
+    max-height: 999999px;
+    position: relative;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
